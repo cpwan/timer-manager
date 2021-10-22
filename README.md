@@ -1,4 +1,4 @@
-# Timer
+# TimerManager
 **Installation**
 ```shell
 python -m pip install "TimerManager @ git+https://github.com/cpwan/timer-manager.git"
