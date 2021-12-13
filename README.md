@@ -3,7 +3,7 @@ Time a script multiple times.
 
 **Installation**
 ```shell
-python -m pip install "TimerManager @ git+https://github.com/cpwan/timer-manager.git"
+python -m pip install "timer-manager @ git+https://github.com/cpwan/timer-manager.git""
 ```
 
 ```python
