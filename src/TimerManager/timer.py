@@ -13,6 +13,7 @@
 #    limitations under the License.
 
 import time
+import pprint
 class Timer:
     def __init__(self):
         self.accum =0.0
@@ -62,7 +63,7 @@ class TimerManager:
         TimerManager.timers=dict()
     @staticmethod
     def print():
-        return print(TimerManager.timers)
+        return pprint.pprint(TimerManager.timers)
 
 
 import atexit
